@@ -1,0 +1,185 @@
+.image-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.file-input-container {
+    margin-bottom: 20px;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.file-name {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.processed-image {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.result-text {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* Thêm vào cuối file CSS hiện tại */
+
+.object-counts-container {
+    margin-top: 20px;
+}
+
+.object-counts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.object-counts-table th,
+.object-counts-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.object-counts-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.object-counts-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.object-counts-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.object-counts-container {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.object-counts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.object-counts-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.object-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.object-count {
+    color: #2c3e50;
+}
+
+ /* .image-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.file-input-label {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.processed-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.result-text {
+    text-align: center;
+    margin-top: 20px;
+} */
+
+/* .image-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.file-input-label {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.processed-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.result-text {
+    text-align: center;
+    margin-top: 20px;
+} */
