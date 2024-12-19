@@ -82,15 +82,6 @@ The dataset is collected from various sources, including [Kaggle Trash Dataset](
 
 ---
 
-## Deployment
-### Backend
-- Use [Render](https://render.com) or [Heroku](https://www.heroku.com) to deploy the Django backend.
-
-### Frontend
-- Use [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com) to deploy the ReactJS frontend.
-
----
-
 ## License
 This project is licensed under the MIT License.
 ```
